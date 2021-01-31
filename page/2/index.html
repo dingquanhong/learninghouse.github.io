@@ -1,435 +1,504 @@
 <html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Gridea</title>
-<link rel="shortcut icon" href="https://dingquanhong.github.io/favicon.ico?v=1612054074492">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<head>
+    <meta charset="utf-8"/>
+<meta name="description" content=""/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>学习屋</title>
+<link rel="shortcut icon" href="https://dingquanhong.github.io/favicon.ico?v=1612054416364">
+<link href="https://cdn.bootcss.com/font-awesome/5.11.2/css/all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://dingquanhong.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="Gridea - Atom Feed" href="https://dingquanhong.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/go.min.js"></script>
+<script src="https://cdn.bootcss.com/moment.js/2.23.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
 
 
 
-    <meta name="description" content="温故而知新" />
-  </head>
-  <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://dingquanhong.github.io">
-  <img class="avatar" src="https://dingquanhong.github.io/images/avatar.png?v=1612054074492" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="/archives" class="menu">
-          归档
-        </a>
-      
-    
-      
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-</div>
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <div class="main-content">
+        <nav class="navbar navbar-expand-lg">
+    <div class="navbar-brand">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            学习屋
+        </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+                <div class="nav-item">
+                    
+                        <a href="/" class="menu gt-a-link">
+                            首页
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/archives" class="menu gt-a-link">
+                            归档
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/tags" class="menu gt-a-link">
+                            标签
+                        </a>
+                    
+                </div>
+            
+                <div class="nav-item">
+                    
+                        <a href="/post/about" class="menu gt-a-link">
+                            关于
+                        </a>
+                    
+                </div>
+            
+        </div>
+    </div>
+</nav>
 
-    
-        <div class="post-container">
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0209/">
-        <h2 class="post-title">走近国际社会</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-13
-        </span>
-        <span>
-          1 min read
-        </span>
+        <div class="post-list-container">
+    <div class="post-inner">
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0209/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0209.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0209/">
+                            <span class="post-title gt-c-content-color-first">走近国际社会</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBWq4<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0208/">
-        <h2 class="post-title">民族区域自治制度和宗教工作基本方针</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-13
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-13 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0209/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0209.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0208/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0208.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0208/">
+                            <span class="post-title gt-c-content-color-first">民族区域自治制度和宗教工作基本方针</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBCmg<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0207/">
-        <h2 class="post-title">中国共产党领导的多党合作和政治协商制度</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-13
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-13 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0208/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0208.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0207/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0207.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0207/">
+                            <span class="post-title gt-c-content-color-first">中国共产党领导的多党合作和政治协商制度</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBSyh<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatory/">
-        <h2 class="post-title">我国的人民代表大会制度</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-11
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-13 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0207/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0207.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatory/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatory.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatory/">
+                            <span class="post-title gt-c-content-color-first">我国的人民代表大会制度</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBiqf<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0205/">
-        <h2 class="post-title">中国特色社会主义最本质的特征</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-11
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-11 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatory/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatory.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0205/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0205.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0205/">
+                            <span class="post-title gt-c-content-color-first">中国特色社会主义最本质的特征</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBfFv<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0204/">
-        <h2 class="post-title">我国政府受人民监督</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-10
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-11 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0205/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0205.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0204/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0204.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0204/">
+                            <span class="post-title gt-c-content-color-first">我国政府受人民监督</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBqsC<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0203/">
-        <h2 class="post-title">我国政府是人民的政府</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-10
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-10 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0204/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0204.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0203/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0203.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0203/">
+                            <span class="post-title gt-c-content-color-first">我国政府是人民的政府</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBUUa<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0202/">
-        <h2 class="post-title">我国公民的政治参与</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-09
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-10 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0203/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0203.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0202/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0202.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0202/">
+                            <span class="post-title gt-c-content-color-first">我国公民的政治参与</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6woBZTj<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0201/">
-        <h2 class="post-title">生活在人民当家做主的国家</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-09
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-09 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0202/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0202.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
-            # 必修二
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0201/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0201.PNG')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0201/">
+                            <span class="post-title gt-c-content-color-first">生活在人民当家做主的国家</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6wo1sYe<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-    <article class="post">
-      <a href="https://dingquanhong.github.io/post/Obligatoryzz0100/">
-        <h2 class="post-title">政治必修一全册</h2>
-      </a>
-      <div class="post-info">
-        <span>
-          2020-04-08
-        </span>
-        <span>
-          1 min read
-        </span>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-09 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/W0zQbFd4Fg/" class="post-tag">
+                                # 必修二
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0201/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0201.PNG')">
+                    </a>
+                
+            </div>
         
-          <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
-            # 政治
-          </a>
-        
-          <a href="https://dingquanhong.github.io/tag/z3ATWyazn2/" class="post-tag">
-            # 必修一
-          </a>
-        
-      </div>
-      
-        <a href="https://dingquanhong.github.io/post/Obligatoryzz0100/" class="post-feature-image" style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0100.png')">
-        </a>
-      
-      <div class="post-abstract">
-        <blockquote>
+            <div class="post gt-bg-theme-color-second">
+                <div class="post-left">
+                    <div>
+                        
+                        <a href="https://dingquanhong.github.io/post/Obligatoryzz0100/">
+                            <span class="post-title gt-c-content-color-first">政治必修一全册</span>
+                        </a>
+                    </div>
+                    <div class="gt-post-content post-abstract gt-c-content-color-second">
+                        <blockquote>
 <p>下载地址：http://t.cn/A6wodn4A<br>
 本文章版权由Learning House所有，未经允许不得转载</p>
 </blockquote>
 
-      </div>
-    </article>
-  
-</div>
-
-    
-        <div class="pagination-container">
-  
-    <a href="https://dingquanhong.github.io/" class="prev-page">上一页</a>
-  
-  
-</div>
-
-    
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://dingquanhong.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
-      </div>
+                    </div>
+                    <div class="post-info">
+                        <time class="post-time gt-c-content-color-first">
+                            发布于 · 2020-04-08 ·
+                        </time>
+                        
+                            <a href="https://dingquanhong.github.io/tag/rVThDRxAR/" class="post-tag">
+                                # 政治
+                            </a>
+                        
+                            <a href="https://dingquanhong.github.io/tag/z3ATWyazn2/" class="post-tag">
+                                # 必修一
+                            </a>
+                        
+                    </div>
+                </div>
+                
+                    <a href="https://dingquanhong.github.io/post/Obligatoryzz0100/" class="post-feature-image"
+                       style="background-image: url('https://dingquanhong.github.io/post-images/Obligatoryzz0100.png')">
+                    </a>
+                
+            </div>
+        
     </div>
-  </body>
+</div>
+
+        <div class="pagination-container">
+    
+        <a href="https://dingquanhong.github.io/" class="prev-page gt-a-link">上一页</a>
+    
+    
+</div>
+
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">LearningHouse</div>
+    <div class="social-container">
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://dingquanhong.github.io" target="_blank">Dingquanhong</a>
+    </div>
+    <div>
+        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
+                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://dingquanhong.github.io/atom.xml" target="_blank">RSS</a></a>
+    </div>
+</div>
+
+<script>
+    hljs.initHighlightingOnLoad()
+</script>
+
+    </div>
+</div>
+</body>
 </html>
