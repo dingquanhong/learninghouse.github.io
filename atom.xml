@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dingquanhong.github.io</id>
     <title>学习屋</title>
-    <updated>2021-02-15T02:31:16.102Z</updated>
+    <updated>2021-02-15T05:16:10.466Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dingquanhong.github.io"/>
     <link rel="self" href="https://dingquanhong.github.io/atom.xml"/>
@@ -11,12 +11,24 @@
     <icon>https://dingquanhong.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 学习屋</rights>
     <entry>
+        <title type="html"><![CDATA[思维导图]]></title>
+        <id>https://dingquanhong.github.io/post/si-wei-dao-tu/</id>
+        <link href="https://dingquanhong.github.io/post/si-wei-dao-tu/">
+        </link>
+        <updated>2021-02-15T05:15:43.000Z</updated>
+        <content type="html"><![CDATA[<p>等待上传中</p>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[寒假作业解析]]></title>
         <id>https://dingquanhong.github.io/post/jiexi/</id>
         <link href="https://dingquanhong.github.io/post/jiexi/">
         </link>
         <updated>2021-02-15T01:48:29.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://dingquanhong.github.io/post-images/1613354397288.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<p><a href="https://dingquanhong.github.io/post/xinlinghang" target="_blank">新领航</a><br/><br>
+<a href="https://dingquanhong.github.io/post/wenzhoujuanb" target="_blank">温州卷B</a><br/><br>
+<a href="https://dingquanhong.github.io/post/diaoyanjuan" target="_blank">调研卷</a><br/><br>
+思维导图</p>
 ]]></content>
     </entry>
     <entry>
@@ -237,32 +249,6 @@ Visual Basic（简称VB）是Microsoft公司开发的一种通用的基于对象
 <p>✒️编者：Dingquanhong<br>
 备案号：Study-Obligatory two-zz0210<br>
 备用下载：https://dingquanhong.lanzous.com/b015cl39c</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[走近国际社会]]></title>
-        <id>https://dingquanhong.github.io/post/Obligatoryzz0209/</id>
-        <link href="https://dingquanhong.github.io/post/Obligatoryzz0209/">
-        </link>
-        <updated>2020-04-13T00:08:31.000Z</updated>
-        <summary type="html"><![CDATA[<blockquote>
-<p>下载地址：http://t.cn/A6woBWq4<br>
-本文章版权由Learning House所有，未经允许不得转载</p>
-</blockquote>
-]]></summary>
-        <content type="html"><![CDATA[<blockquote>
-<p>下载地址：http://t.cn/A6woBWq4<br>
-本文章版权由Learning House所有，未经允许不得转载</p>
-</blockquote>
-<!-- more -->
-<p>在线预览（文件较大加载需要时间）<br>
-<img src="https://dingquanhong.github.io/post-images/1586736584820.png" alt="" loading="lazy"></p>
-<!-- more -->
-<p>本文章版权由Learning House所有，未经允许不得转载；</p>
-<!-- more -->
-<p>✒️编者：Dingquanhong<br>
-备案号：Study-Obligatory two-zz0209<br>
-备用下载：https://dingquanhong.lanzous.com/b015cl2if</p>
 ]]></content>
     </entry>
 </feed>
